@@ -10,7 +10,7 @@ public class Program
 	final static int TOTAL_RESOURCES = 30; // Total resources in the system
 	final static int MAX_PROC_RESOURCES = 13; // Highest amount of resources any process could need
 	final static int ITERATIONS = 30; // How long to run the program
-    private static int totalHeldResources = 0;
+        private static int totalHeldResources = 0;
 	static Random rand = new Random();
 	
 	public static void main(String[] args)
@@ -40,7 +40,7 @@ public class Program
 				if(currRequest < 0)
 				{
 					totalHeldResources += currRequest;
-				    System.out.println("Process " + j + " completed. " + j + " resources released.");
+					System.out.println("Process " + j + " completed. " + j + " resources released.");
 				}
 				else 
 				{ 
